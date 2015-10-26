@@ -16,7 +16,7 @@ class Chick implements Animal
   }      
   public String getSound()
   {
-  	if((int)(Math.random()*2) == 0)
+  	if((int)Math.random()*3 == 0)
   	{
   	  return mySound[0];
   	}
